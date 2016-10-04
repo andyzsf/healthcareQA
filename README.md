@@ -27,9 +27,10 @@
 爬取链接类crawler_title位于crawler_title.py，继承crawler_page<br>
 爬取内容问答类crawler_content位于crawler_content.py，继承crawler_page<br>
 
+代码支持中断续爬，仅仅依赖beatifulsoup第三方包。
+
 ##操作步骤
-####step 1 . 修改配置文件config.py
-<br>
+####step 1 . 修改配置文件config.py:
 
 basepath = '/home/healthcare/healthcare/' ＃ 修改为项目的安装目录<br>
 datapath = 'data/'     ＃ 该目录为数据存储目录          <br>
@@ -50,5 +51,5 @@ logFile2 = "logFile2.txt" ＃ 内容爬取记录文件
 ####step3. 爬取链接目录文件
 python ./code/crawler.py title >crawler_title.log
 
-###step4. 爬取内容文件
+####step4. 爬取内容文件
 python ./code/crawler.py content >crawler_content.log
