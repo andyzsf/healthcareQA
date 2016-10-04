@@ -37,9 +37,9 @@ datapath = 'data/'     ＃ 该目录为数据存储目录          <br>
 title_file = 'title.txt'<br>
 content_file = 'content.txt'<br>
 
-＃ 爬取的起始日期
-startDate = [2016,4,1] 
-endDate  = [2016,4,30]
+＃ 爬取的起始日期<br>
+startDate = [2016,4,1] <br>
+endDate  = [2016,4,30]<br>
 
 
 logFile = "logFile.txt" ＃ 链接爬取记录文件
